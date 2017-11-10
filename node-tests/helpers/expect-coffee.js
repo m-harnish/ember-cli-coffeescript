@@ -1,4 +1,4 @@
-var coffeescript = require('coffee-script');
+var coffeescript = require('coffeescript');
 var expect = require('ember-cli-blueprint-test-helpers/chai').expect;
 
 module.exports = function(file) {
