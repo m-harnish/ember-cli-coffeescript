@@ -29,7 +29,7 @@ describe('Acceptance: ember generate and destroy helper', function() {
 
         expect(helperTestFile)
           .to.contain("import { fooBar } from 'my-app/helpers/foo-bar'")
-          .to.contain("module 'Unit | Helper | foo bar'")
+          .to.contain("module 'Integration | Helper | foo bar'")
           .to.contain("result = fooBar 42");
 
         expectCoffee(helperTestFile);
