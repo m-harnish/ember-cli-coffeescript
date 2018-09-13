@@ -33,7 +33,7 @@ describe('Acceptance: ember generate and destroy component', function() {
         expect(componentTestFile)
           .to.contain("import { test, moduleForComponent } from 'ember-qunit'")
           .to.contain("import hbs from 'htmlbars-inline-precompile'")
-          .to.contain("moduleForComponent 'x-foo', 'Integration | Component | x foo'")
+          .to.contain("moduleForComponent 'x-foo', 'Integration | Component | x-foo'")
           .to.contain('integration: true')
           .to.contain('{{x-foo}}')
           .to.contain('{{#x-foo}}');

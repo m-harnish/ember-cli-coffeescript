@@ -31,7 +31,7 @@ describe('Acceptance: ember generate and destroy mixin', function() {
           // TODO: Fix this import - it should be absolute
           .to.contain("import FooBarMixin from '../../../mixins/foo-bar'")
           .to.contain("import { module, test } from 'qunit'")
-          .to.contain("module 'Unit | Mixin | foo bar'")
+          .to.contain("module 'Unit | Mixin | foo-bar'")
           .to.contain('FooBarObject = Ember.Object.extend FooBarMixin')
           .to.contain('subject = FooBarObject.create()');
 
@@ -50,7 +50,7 @@ describe('Acceptance: ember generate and destroy mixin', function() {
           .to.contain("import Ember from 'ember'")
           .to.contain("import FooBarMixin from '../../../mixins/foo-bar'")
           .to.contain("import { module, test } from 'qunit'")
-          .to.contain("module 'Unit | Mixin | foo bar'")
+          .to.contain("module 'Unit | Mixin | foo-bar'")
           .to.contain('FooBarObject = Ember.Object.extend FooBarMixin')
           .to.contain('subject = FooBarObject.create()');
 

@@ -6,7 +6,6 @@ var emberNew = blueprintHelpers.emberNew;
 var emberGenerateDestroy = blueprintHelpers.emberGenerateDestroy;
 
 var expect = require('ember-cli-blueprint-test-helpers/chai').expect;
-var expectCoffee = require('../helpers/expect-coffee');
 
 describe('Acceptance: ember generate and destroy component-addon', function() {
   setupTestHooks(this);

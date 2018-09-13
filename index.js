@@ -1,4 +1,3 @@
-/* eslint-env node */
 'use strict';
 var path      = require('path');
 var defaults  = require('lodash.defaults');
@@ -6,7 +5,7 @@ var defaults  = require('lodash.defaults');
 var CoffeePreprocessor = require('./lib/coffee-preprocessor');
 
 module.exports = {
-  name: 'Ember CLI Coffeescript Addon',
+  name: require('./package').name,
 
   getConfig: function() {
     var brocfileConfig = {};
