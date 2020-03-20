@@ -1,5 +1,5 @@
 {
-  "name": "eflex-ember-cli-coffeescript",
+  "name": "@eflexsystems/ember-cli-coffeescript",
   "version": "2.0.6",
   "description": "Adds precompilation of CoffeeScript files and all the basic generation types to the `ember generate` command.",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kimroen/ember-cli-coffeescript"
+    "url": "git://github.com/eflexsystems/ember-cli-coffeescript"
   },
   "license": "MIT",
   "author": "Kim Røen",
@@ -74,9 +74,9 @@
     "node": "8.* || >= 10.*"
   },
   "bugs": {
-    "url": "https://github.com/kimroen/ember-cli-coffeescript/issues"
+    "url": "https://github.com/eflexsystems/ember-cli-coffeescript/issues"
   },
-  "homepage": "https://github.com/kimroen/ember-cli-coffeescript",
+  "homepage": "https://github.com/eflexsystems/ember-cli-coffeescript",
   "ember-addon": {
     "configPath": "tests/dummy/config",
     "before": [
