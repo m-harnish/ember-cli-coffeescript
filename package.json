@@ -1,6 +1,6 @@
 {
   "name": "@eflexsystems/ember-cli-coffeescript",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Adds precompilation of CoffeeScript files and all the basic generation types to the `ember generate` command.",
   "keywords": [
     "ember-addon",
@@ -30,10 +30,10 @@
     "nodetest": "mocha node-tests --recursive --exit"
   },
   "dependencies": {
+    "@eflexsystems/broccoli-coffee": "^2.0.0",
     "@coffeelint/cli": "^4.1.2",
     "broccoli-persistent-filter": "^3.0.0",
     "chalk": "^4.0.0",
-    "eflex-broccoli-coffee": "^1.0.1",
     "ember-cli-htmlbars": "^5.1.2",
     "ember-cli-legacy-blueprints": "^0.2.1",
     "fs-extra": "^9.0.0",

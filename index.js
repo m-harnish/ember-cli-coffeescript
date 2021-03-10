@@ -9,7 +9,7 @@ module.exports = {
 
   getConfig: function() {
     var brocfileConfig = {};
-    var coffeeOptions = defaults(this.project.config(process.env.EMBER_ENV).coffeeOptions || {},
+    var coffeeOptions = defaults(this.project.configWithoutCache(process.env.EMBER_ENV).coffeeOptions || {},
       brocfileConfig, {
         blueprints: true
       });
